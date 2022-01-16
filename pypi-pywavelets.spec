@@ -4,7 +4,7 @@
 #
 Name     : pypi-pywavelets
 Version  : 1.2.0
-Release  : 43
+Release  : 44
 URL      : https://files.pythonhosted.org/packages/35/e9/decd467448cde227aad94ff2976046afd3a51ad461ba9a325840687e8836/PyWavelets-1.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/35/e9/decd467448cde227aad94ff2976046afd3a51ad461ba9a325840687e8836/PyWavelets-1.2.0.tar.gz
 Summary  : PyWavelets, wavelet transform module
@@ -13,11 +13,7 @@ License  : MIT
 Requires: pypi-pywavelets-license = %{version}-%{release}
 Requires: pypi-pywavelets-python = %{version}-%{release}
 Requires: pypi-pywavelets-python3 = %{version}-%{release}
-BuildRequires : Cython
 BuildRequires : buildreq-distutils3
-Provides: PyWavelets
-Provides: PyWavelets-python
-Provides: PyWavelets-python3
 BuildRequires : pypi(cython)
 BuildRequires : pypi(docutils)
 BuildRequires : pypi(matplotlib)
@@ -25,6 +21,7 @@ BuildRequires : pypi(numpy)
 BuildRequires : pypi(numpydoc)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(wheel)
+BuildRequires : pypi-cython
 
 %description
 +---------------+-----------------+
@@ -59,10 +56,7 @@ Summary: python3 components for the pypi-pywavelets package.
 Group: Default
 Requires: python3-core
 Provides: pypi(pywavelets)
-Requires: pypi(docutils)
-Requires: pypi(matplotlib)
 Requires: pypi(numpy)
-Requires: pypi(numpydoc)
 
 %description python3
 python3 components for the pypi-pywavelets package.
@@ -77,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641486409
+export SOURCE_DATE_EPOCH=1642361548
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
