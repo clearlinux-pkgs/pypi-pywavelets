@@ -4,7 +4,7 @@
 #
 Name     : pypi-pywavelets
 Version  : 1.3.0
-Release  : 46
+Release  : 47
 URL      : https://files.pythonhosted.org/packages/32/ab/b96b19cae562aecaa57f0cdb501be169a38ec685ddcc91f1de20f849b22e/PyWavelets-1.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/32/ab/b96b19cae562aecaa57f0cdb501be169a38ec685ddcc91f1de20f849b22e/PyWavelets-1.3.0.tar.gz
 Summary  : PyWavelets, wavelet transform module
@@ -98,7 +98,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656379256
+export SOURCE_DATE_EPOCH=1656403172
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
