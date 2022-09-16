@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pywavelets
-URL = https://files.pythonhosted.org/packages/32/ab/b96b19cae562aecaa57f0cdb501be169a38ec685ddcc91f1de20f849b22e/PyWavelets-1.3.0.tar.gz
+URL = https://files.pythonhosted.org/packages/48/ec/fe84e23bf150a473532937716ffc6c783b53337936e17b3bb1e2a3b42156/PyWavelets-1.4.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
