@@ -5,7 +5,7 @@
 #
 Name     : pypi-pywavelets
 Version  : 1.4.1
-Release  : 59
+Release  : 60
 URL      : https://files.pythonhosted.org/packages/6e/d4/008dceeb95fafcf141f39393bdfc10921d0b62a325c2794ac533195a1eb3/PyWavelets-1.4.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6e/d4/008dceeb95fafcf141f39393bdfc10921d0b62a325c2794ac533195a1eb3/PyWavelets-1.4.1.tar.gz
 Summary  : PyWavelets, wavelet transform module
@@ -20,6 +20,7 @@ BuildRequires : pypi(docutils)
 BuildRequires : pypi(matplotlib)
 BuildRequires : pypi(numpy)
 BuildRequires : pypi(numpydoc)
+BuildRequires : pypi(setuptools)
 BuildRequires : pypi(wheel)
 BuildRequires : pypi-cython
 # Suppress stripping binaries
@@ -59,12 +60,10 @@ Summary: python3 components for the pypi-pywavelets package.
 Group: Default
 Requires: python3-core
 Provides: pypi(pywavelets)
-Requires: pypi(cython)
 Requires: pypi(docutils)
 Requires: pypi(matplotlib)
 Requires: pypi(numpy)
 Requires: pypi(numpydoc)
-Requires: pypi(wheel)
 
 %description python3
 python3 components for the pypi-pywavelets package.
@@ -82,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683047141
+export SOURCE_DATE_EPOCH=1685549341
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
