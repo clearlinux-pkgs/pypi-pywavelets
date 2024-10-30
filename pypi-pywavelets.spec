@@ -7,7 +7,7 @@
 #
 Name     : pypi-pywavelets
 Version  : 1.7.0
-Release  : 65
+Release  : 66
 URL      : https://files.pythonhosted.org/packages/94/0a/c235e7dd60d136b14cd8793c440e8d22e7880df5588162feb02d6d6118a3/pywavelets-1.7.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/94/0a/c235e7dd60d136b14cd8793c440e8d22e7880df5588162feb02d6d6118a3/pywavelets-1.7.0.tar.gz
 Summary  : PyWavelets, wavelet transform module
